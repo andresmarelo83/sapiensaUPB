@@ -1,0 +1,355 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Cabin Sketch', cursive; */
+
+body {
+	background: black;
+    font-family: 'Lobster Two', cursive;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+header {
+    margin-top: 30px;
+    position: 0;
+}
+
+header .nav {
+	min-height: 80px;
+	overflow: hidden;
+    background: #fff;
+    
+}
+
+/* --- LOGO --- */
+header .logo h1,
+header .logo span {
+	font-size: 16px;
+	display: inline-block;
+    margin: 0px;
+    font-family: 'Acme', sans-serif;
+	color: black;
+	
+}
+
+header .logo h1 {
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+header .logo span {
+	/*transform: rotate(0.5turn);*/
+	/*padding-right: 15px;*/
+}
+
+.icon-cubiertos{
+	width: 60px;
+	height: 60px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* --- MENU --- */
+header .menu {
+	padding: 0;
+}
+
+
+
+header .menu a div span {
+	font-weight: 600;
+}
+
+header .menu .c-1 { background: white; }
+header .menu .c-2 { background: white; }
+
+
+header .menu .c-1:hover { 
+    background: black;
+    color: whitesmoke;
+}
+header .menu .c-2:hover { 
+    background: black;
+    color: whitesmoke;
+}
+
+
+/* --- SLIDER --- */
+
+section {
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+  
+.splide_slide img {
+    width: 850px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+/* --- PORTAFOLIO --- */
+.portafolio {
+	background: whitesmoke;
+	border-top: 50px solid black;
+	padding: 0 20px;
+}
+
+.portafolio .titulo {
+	padding: 40px 0;
+	text-align: center;
+	color: black;
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    font-size: 80px;
+	font-weight: 300;
+	
+}
+
+.portafolio .galeria .contenedor-imagen {
+	margin-bottom: 40px;
+	max-height: 180px;
+	overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+	background: rgb(194, 194, 194);
+	display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+	opacity: .6;
+}
+
+.portafolio .modal-dialog {
+	margin: 0px auto;
+	height: 100%;
+	max-width: 1000px;
+}
+
+.portafolio .modal-content {
+	width: auto;
+}
+
+/* --- ACERCA DE --- */
+.acerca-de {
+	padding: 30px;
+	margin-bottom: 40px;
+}
+.acerca-de p{
+	font-size: 30px;
+}
+.acerca-de .foto {
+	text-align: center;
+}
+
+.acerca-de .foto img {
+	margin-bottom: 30px;
+}
+
+
+/* --- CONTACTO --- */
+.contacto {
+	padding: 40px 0;
+	border-top: 1px solid #cbcbcb;
+	border-bottom: 1px solid #cbcbcb;
+	margin-bottom: 40px;
+}
+
+.contacto .titulo {
+	color: rgb(90, 16, 16);
+    font-family: 'Lobster Two', cursive;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.contacto .form-group {
+	margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+	padding: 15px;
+	border: none;
+	width: 100%;
+    font-family: 'Lobster Two', cursive;
+	margin-bottom: 30px;
+}
+
+.formulario textarea {
+	height: 150px;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.formulario .boton {
+	background: gray;
+	border: none;
+	padding: 7px 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	transition: all .3s ease;
+}
+
+.formulario .boton:hover {
+    background: rgb(90, 16, 16);
+    color: whitesmoke;
+}
+
+/* --- FOOTER --- */
+.redes-sociales {
+	padding: 40px 0;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.redes-sociales .icono {
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	line-height: 100px;
+	color: black;
+	text-align: center;
+	background: whitesmoke;
+	display: inline-block;
+	margin: 0px 20px;
+	text-decoration: none;
+	border-radius: 100px;
+	transition: all .3s ease;
+}
+
+.redes-sociales .gps {background: whitesmoke;}
+.redes-sociales .instagram {background: whitesmoke;}
+.redes-sociales .facebook {background: whitesmoke;}
+
+.redes-sociales .gps:hover {background: rgb(90, 16, 16); color: whitesmoke;}
+.redes-sociales .instagram:hover {background: rgb(90, 16, 16); color: whitesmoke;}
+.redes-sociales .facebook:hover {background: rgb(90, 16, 16);color: whitesmoke;}
+
+
+/* --- MEDIAQUERIES ---  */
+
+/* Dispositivo xl */
+@media screen and (max-width:2000px) {
+    header .logo h1, 
+	header .logo span {
+		font-size: 45px;
+    }
+    
+}
+
+/* Dispositivo lg */
+@media screen and (max-width:991px) {
+	.logo {
+		height: 76px;
+	}
+
+	.menu {
+		min-height: 76px;
+	}
+
+	.menu a {
+		width: 100%;
+	}
+
+	.menu a div {
+		width: 100%;
+    }
+    header .logo h1, 
+	header .logo span {
+		font-size: 45px;
+    }
+    header .menu{
+        font-size: 50px;
+    }
+    .row .slider img{
+        background-position: center;
+        
+    }
+
+	.portafolio .galeria .contenedor-imagen:nth-child(1) {order:1;}
+	.portafolio .galeria .contenedor-imagen:nth-child(2) {order:3;}
+	.portafolio .galeria .contenedor-imagen:nth-child(3) {order:6;}
+	.portafolio .galeria .contenedor-imagen:nth-child(4) {order:2;}
+	.portafolio .galeria .contenedor-imagen:nth-child(5) {order:5;}
+	.portafolio .galeria .contenedor-imagen:nth-child(6) {order:4;}
+	.portafolio .galeria .contenedor-imagen:nth-child(7) {order:7;}
+
+	.modal .modal-dialog {
+        width: 90%;
+	}
+
+	.modal .modal-dialog .modal-content img {
+		width: 100%;
+	}
+	.acerca-de .foto img {
+		
+		height: 230px;
+		width: 230px;
+	}
+}
+
+/* Dispositivo md */
+@media screen and (max-width:767px) {
+    header .logo h1, 
+	header .logo span {
+		font-size: 45px;
+    }
+    header .menu{
+        font-size: 40px;
+	}
+	.portafolio .titulo {
+		font-size: 40px;
+	}
+	.portafolio .galeria .contenedor-imagen {
+		margin-bottom: 20px;
+		max-height: 110px;
+		overflow: hidden;
+	}
+	.acerca-de .foto img {
+		
+		height: 180px;
+		width: 180px;
+	}
+}
+
+@media screen and (max-width:575px) {
+   
+	header {
+		margin-top: 0;
+    }
+    header .menu{
+        font-size: 30px;
+    }
+
+	header .logo h1, 
+	header .logo span {
+		font-size: 45px;
+	}
+	.portafolio .titulo {
+		font-size: 40px;
+	}
+	.portafolio .galeria .contenedor-imagen {
+		margin-bottom: 10px;
+		max-height: 90px;
+		overflow: hidden;
+	}
+	.acerca-de .foto img {
+		
+		height: 150px;
+		width: 150px;
+	}
+	.redes-sociales .icono{
+	margin: 0px 0px;
+	}}

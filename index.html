@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- las metas son etiquetas que usan los navegadores para pocisionar las paginas -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La zona Grill-it!! es un local de comidas rapidas ubicado en itaguí antioquia">
+    <meta name="keywords" content="comidas rapidas, itagui, hamburguesas, domicilios, restaurantes">
+    <meta name="author" content="Chef & Dev">
+    <!-- link de estilos y fuentes -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Acme&amp;family=Cabin+Sketch:wght@400;700&amp;family=Lobster&amp;family=Lobster+Two&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"> 
+    
+    
+     
+    <!-- logo del sitio -->
+	<Link rel="icon" type="imagen/jpg"  href="imagen/logonav.png" width="5" height="5"/>
+    <title>La Zona Grill it!</title>
+</head>
+<body>
+    <!-- menu de navegacion -->
+	<header>
+		<div class="container">
+			
+			<div class="nav row rounded-top align-items-strech justify-content-between">
+				
+				<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h1>bienvenidos</h1>
+                    <span>
+						<img src="/imagen/social/cubiertos-cruzados.png" alt=""  class="icon-cubiertos">
+					</span>
+                </div>
+                <!-- enlaces para registro y login -->
+				<!--<nav class="col-md-12 col-lg-auto menu d-flex align-items-strech  flex-sm-nowrap">
+					<a href="login.html" target="_blank" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							img
+							
+						</div>
+					</a>
+					<a href="registro.html" target="_blank" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+                            <i class="fas fa-user-edit" class="icono"></i>
+						</div>
+					</a>
+					<a href="https://api.whatsapp.com/send?phone=573015490873" target="_blank" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+                            <i class="fab fa-whatsapp" class="icono"></i>
+						</div>
+					</a>
+				</nav>-->
+                <form class="d-flex">
+                    <div style="padding-top: 15px;">
+                        
+                        <a href="login.html"><button type="button" class="btn btn-dark mx-2 my-2" >Entrar</button></a>
+                        <a href="registro.html"><button type="button" class="btn btn-warning mx-2 my-2"  >Registrarte</button></a>
+                     </div>
+                    
+             </form>   
+			</div>
+		</div>
+        
+    </header>
+    
+    <div class="container my-2">
+        <div class="row">
+            <div class="container col-sm-8">
+                <video autoplay style="width: 627px; margin-left: 50px; "   >
+                    <source src="/video/parrilla.mp4">
+                    <source src="/video/parrilla.mov">
+                    <source src="/video/parrilla.webm">
+                </video>
+            </div>           
+        </div>       
+    </div>
+    
+    <!-- slide de imagenes con js -->
+    <section>       
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide"><img src="/imagen/lazona.jpg" alt=""></li>
+                <li class="splide__slide"><img src="/imagen/quequieres.jpg" alt=""></li>
+                <li class="splide__slide"><img src="/imagen/combo.jpg" alt=""></li>
+                <li class="splide__slide"><img src="/imagen/armala.jpg" alt=""></li>
+                <li class="splide__slide"><img src="/imagen/wraps.jpg" alt=""></li>
+            </ul> 
+        </div>
+    </div>
+</section>
+	<main>
+        
+        <div class="container">
+            
+            <div class="row portafolio">
+				<div class="col">
+					<h2 class="titulo">nuestros productos</h2>
+					<div class="row galeria justify-content-center">
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/hamburguesa.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/carnes.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/wrap.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/quesadilla.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/chuzo.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/patacon.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/salchipapas.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="imagen/jugos.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row acerca-de align-items-center">
+				<div class="col-12 col-lg-4 foto">
+					<img src="imagen/logolazona.jpg" class="rounded-circle img-fluid" alt="">
+				</div>
+				<div class="col-12 col-lg-8 info">
+					
+					<p class="resumen">somos una empresa dedicada a la preparación y elaboración de comidas rápidas tipo gourmet, utilizando siempre productos de la mejor calidad para la tranquilidad de nuestros clientes</p>
+					<p class="resumen"> también ofrecemos servicio de comidas para eventos, refrigerios empresariales, fiestas infantiles, entre otros</p>
+
+			<div class="row contacto justify-content-center">
+				<div class="col-12 col-lg-8">
+					<h2 class="titulo">Contacto</h2>
+					<form action="#" class="formulario" name="comentario" id="comentario" method="get" required>
+						<div class="form-group row">
+							<div class="col-12 col-md-6">
+								<input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+							</div>
+							<div class="col-12 col-md-6">
+								<input type="email" name="email" id="email" placeholder="Correo"
+								required>
+							</div>
+						</div>
+						<textarea name="Mensaje" id="Mensje" placeholder="Mensaje"></textarea>
+						<div class="form-group d-flex justify-content-center">
+							<input type="submit"  class="boton" value="Enviar" onclick="return recibir()">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- pie de pagina -->
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales d-flex justify-content-center">
+				<div class="col-auto">
+					<a href="https://www.google.com/maps/place/Urbanizacion+Las+Américas/@6.1940036,-75.6307845,13z/data=!4m8!1m2!11m1!3e4!3m4!1s0x0:0xe85806f376ad7173!8m2!3d6.1771636!4d-75.6050885" class="icono icon-gps gps"></a>
+					<a href="https://www.instagram.com/lazonacr" class="icono icon-instagram instagram"></a>
+					<a href="https://www.facebook.com/LaZONACR/" class="icono icon-facebook facebook"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- librerias, enlaces de  jquery y javascript -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+    
+    <script src="/js/splide.min.js"></script>
+    <script src="js/index.js"></script>
+	<script type="text/javascript" src="#">
+    
+    
+		var recibir = function() 
+		{
+			var Nombre = document.getElementById('Nombre').nodeValue;
+			var email = document.getElementById('email').nodeValue;
+			var Mensaje = document.getElementById('Mensaje').nodeValue;
+
+
+			document.comentario.Nombre.nodeValue = Nombre;
+			document.comentario.email.nodeValue = email;
+			document.comentario.Mensaje.nodeValue = Mensaje;
+			
+			
+
+			console.log(`${Nombre}${email}${Mensaje}`);
+			return false;
+		}
+	</script>
+    </body>
+
+</html>
