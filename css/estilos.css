@@ -75,6 +75,19 @@ header .menu .c-2:hover {
     color: whitesmoke;
 }
 
+.video{
+	width: 600px;
+	margin-left: 50px;
+	display: flex;
+}
+
+@media (max-width: 600px) {
+	.video {
+		width: 50px;
+		margin-left: 10px;
+	}
+  }
+
 
 /* --- SLIDER --- */
 
